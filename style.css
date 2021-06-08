@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('/fonts/verdana.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('/fonts/georgia.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+.text-color-non-contrasting{
+    color: #999999 !important;
+}
+
+.main-background{
+    background: black;
+    background-color: black;
+}
+
+.color-white{
+    background: white;
+}
+
+.bodoni-moda{
+    font-family: 'Bodoni Moda', serif;
+}
+
+.font-vt{
+    font-family: 'VT323', monospace;
+}
+
+.font-georgia{
+    font-family: 'Georgia';
+}
+
+.font-large{
+    font-size: 2.5rem;
+}
+
+.font-micro{
+    font-size: 0.7rem;
+}
+
+.font-verdana{
+    font-family: 'Verdana';
+}
+.shape{
+    background: #181818; 
+}
+
+
+
+.mini-menu{
+    border-radius: 15px 15px 0px 0px;
+    background: #111111;
+    color: #4f4f4f;
+}
+
+.logo-description{
+    vertical-align: baseline;
+}
+
+.font-logo-description{
+    font-size: 0.8rem;
+}
+
+.search input[type=text] {
+    background: #333333;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.main-photo{
+    background: burlywood;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-text{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn.corner-0{  
+    border-radius: 0;
+    background: #333333;
+    border-color: #333333;
+    border-left-color: black;
+    border-right-color: black;
+}
+.btn.corner-0:hover{
+    background: black;
+    border-color: black;
+}
+
+.md-form.mt-0{
+    min-width:50px;
+    display:flex;
+    align-items: center;  
+}
+
