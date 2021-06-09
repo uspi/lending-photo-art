@@ -44,7 +44,7 @@
 .font-verdana{
     font-family: 'Verdana';
 }
-.shape{
+.color-shape{
     background: #181818; 
 }
 
@@ -75,7 +75,8 @@
 }
 
 .main-photo{
-    background: burlywood;
+    background: yellow;
+    height: 7.5rem;
 }
 
 .img-container{
@@ -119,3 +120,33 @@ hr.rounded {
     border-radius: 5px;
   }
   
+.flex-fill.tile{
+    background: #141414;
+}
+
+.finder-head{
+    background: #111111;
+}
+
+.finder-body{
+    height: 5rem;
+    border-top: 1px black solid;
+}
+
+body{
+    min-width: 326px;
+}
+
+.tile-body{
+    height: 5rem;
+    border-top: 1px black solid;
+}
+
+.text-size-tile-title{
+    font-size: 1.4rem;
+}
+
+.main-photo-description{
+    background-color: teal;
+    height: 7.5rem;
+}
