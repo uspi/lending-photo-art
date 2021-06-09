@@ -118,7 +118,10 @@
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
-  }
+}
+hr.separator{
+    border: 4px solid #3b3b3b;
+}
   
 .flex-fill.tile{
     background: #141414;
@@ -149,4 +152,8 @@ body{
 .main-photo-description{
     background-color: teal;
     height: 7.5rem;
+}
+
+.font-size-basement{
+    font-size: 0.8rem;
 }
