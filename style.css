@@ -148,11 +148,36 @@ body{
     font-size: 1.4rem;
 }
 
-.main-photo-description{
-    background-color: teal;
-    height: 7.5rem;
-}
-
 .font-size-basement{
     font-size: 0.8rem;
+}
+
+.image-carousel{
+    object-fit: cover;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    background-image: url('https://lh3.google.com/u/0/d/1xEtmp7CAXLV0TyxpTl3ouyeW4JLyUJgM=w1920-h954-iv1');
+}
+
+.image-carousel-text-block{
+    width: 300px;
+    min-width: 100px;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    overflow: none;
+    display: block;
+}
+
+.image-carousel-text-block.background{
+    background-color: black;
+    opacity: .3;
+}
+
+.image-carousel-text-block.text{
+    font-size: 3.5rem;
 }
