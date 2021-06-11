@@ -14,3 +14,8 @@ The current project is one page of the site. This is my educational task, during
     <img src="https://img.shields.io/badge/bootstrap-v5.0.1-brightgreen"/>
 </a>
 
+## Fonts
+
+- Georgia
+- Verdana
+
