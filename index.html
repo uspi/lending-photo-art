@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+
     <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap"
@@ -104,20 +106,23 @@
             <img src="https://moranyachts.imgix.net/wp-content/uploads/2017/09/lurssen-yacht-kismet-profile.jpg?auto=format&fit=crop&fm=webp%26nbsp%3B2x&h=400&ixlib=php-3.1.0&w=720&s=4a563e270b3887ce4636f02dba6bc82f" class="img-fluid">
             <span class="color-white main-photo-description p-3 image-carousel-text-block">column one - description </span>
           </div> -->
+
+          <!-- photo -->
           <div class="image-carousel">
             <div class="image-carousel-text-block">
               <div class="image-carousel-text-block background"></div>
+              
+              <!-- image description -->
               <div class="image-carousel-text-block text p-3 font-georgia">
-                <div class="arrows">< ></div>
+                <div class="arrows">
+                  <span class="material-icons">arrow_back_ios_new</span>
+                  <span class="material-icons arrow-next-reflect">arrow_back_ios_new</span>
+                </div>
                 <div class="name py-2">Boating</div>
                 <div class="contain">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                <div class="read-more">Read More</div>
+                <div class="read-more float-right pb-4 text-right">Read More</div>
               </div>
             </div>
-          </div>
-
-          <div class="flex-grow-1">
-            
           </div>
         </div>
       </div>
@@ -130,22 +135,23 @@
 
           <div class="flex-fill tile mb-2">
             <div class="p-2 text-size-tile-title">Sport Photography</div>
-            <div class="tile-body color-shape">
-              will be photo right here
+            
+            <div id="image-container" class="tile-body">
+              <div id="image-bike"></div>
             </div>
           </div>
 
           <div class="flex-fill tile mx-2 mb-2">
             <div class="p-2 text-size-tile-title">Wedding Photography</div>
-            <div class="tile-body color-shape">
-              will be photo right here
+            <div id="image-container" class="tile-body">
+              <div id="image-wedding"></div>
             </div>
           </div>
 
           <div class="flex-fill tile mb-2">
             <div class="p-2 text-size-tile-title">Active Photography</div>
-            <div class="tile-body color-shape">
-              will be photo right here
+            <div id="image-container" class="tile-body">
+              <div id="image-active"></div>
             </div>
           </div>
         </div>
@@ -162,7 +168,6 @@
         </div>
         
         <div class="finder-body text-color-non-contrasting color-shape">
-          textf
         </div>
         <hr class="separator my-0"/>
       </div>

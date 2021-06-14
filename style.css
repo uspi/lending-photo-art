@@ -131,7 +131,7 @@ hr.separator{
 }
 
 .finder-body{
-    height: 5rem;
+    height: 400px;
     border-top: 1px black solid;
 }
 
@@ -140,7 +140,6 @@ body{
 }
 
 .tile-body{
-    height: 5rem;
     border-top: 1px black solid;
 }
 
@@ -150,6 +149,10 @@ body{
 
 .font-size-basement{
     font-size: 0.8rem;
+}
+
+:root{
+    --image-carousel-text-block-width: 300px;
 }
 
 .image-carousel{
@@ -164,7 +167,7 @@ body{
 }
 
 .image-carousel-text-block{
-    width: 300px;
+    width: var(--image-carousel-text-block-width);
     min-width: 100px;
     height: 100%;
     position: absolute;
@@ -174,7 +177,7 @@ body{
 }
 
 .image-carousel-text-block.background{
-    background-color: black;
+    background-color: black !important;
     opacity: .3;
 }
 
@@ -194,7 +197,45 @@ body{
 .image-carousel-text-block > .read-more{
     position: absolute;
     bottom: 0px;
-    float: right;
-    margin-left: auto;
     font-size: 1.05rem;
+    justify-content: end;
+    width: 100%;
+    font-weight: bold;
+    padding-left: calc(var(--image-carousel-text-block-width) / 2);
+}
+
+#image-container > #image-bike{
+    object-fit: cover;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 190px;
+    position: relative;
+    background-image: url("https://img3.goodfon.ru/wallpaper/nbig/f/6e/yamaha-bike-moto-motocikl.jpg");
+}
+
+#image-container > #image-wedding{
+    object-fit: cover;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 190px;
+    position: relative;
+    background-image: url("https://assets.cityexperiences.com/wp-content/uploads/2021/03/2021_238433_FLT_Photo_Requests_WebsiteCategoryPhotos_WeddingsOnTheWater_OPT.jpeg");
+}
+#image-container > #image-active{
+    object-fit: cover;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 190px;
+    position: relative;
+    background-image: url("https://cdn24.img.ria.ru/images/rsport/95985/00/959850038_0:0:0:0_600x0_80_0_0_6af7f915f417c2b472d781a8718939d9.jpg");
+}
+
+.arrow-next-reflect{
+    transform: scale(-1, 1);
 }
