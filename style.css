@@ -233,3 +233,25 @@ body{
 .arrow-next-reflect{
     transform: scale(-1, 1);
 }
+
+.fin-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-container {
+    background: #141414;
+    width: auto;
+    flex-grow: 12;
+    flex-basis: 25%;
+}
+
+.item-container-priority{
+    background: #141414;
+    width: auto;
+    flex-grow: 5;
+    flex-basis: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* flex-basis: 500px; */
+}
